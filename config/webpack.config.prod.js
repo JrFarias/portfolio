@@ -141,7 +141,7 @@ module.exports = {
     ),
     extensions: ['.mjs', '.web.js', '.js', '.json', '.web.jsx', '.jsx'],
     alias: {
-      'react-native': 'react-native-web',
+      components: path.resolve(__dirname, '..', 'src', 'components')
     },
     plugins: [
       PnpWebpackPlugin,

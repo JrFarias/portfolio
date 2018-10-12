@@ -9,7 +9,10 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint \"src/components/**\" -c ./.eslintrc.json --ext .js",
+    "flow:check": "flow check"
   },
   "dependencies": {
     "@babel/core": "7.1.0",
@@ -61,8 +64,21 @@
     "webpack-manifest-plugin": "2.0.4",
     "workbox-webpack-plugin": "3.6.2"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "devDependencies": {
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-import-resolver-webpack": "^0.10.1",
+    "flow-bin": "^0.83.0",
+    "flow-typed": "^2.5.1",
+    "husky": "^1.1.2",
+    "prettier": "^1.14.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run test && npm run lint && npm run flow:check"
+    }
   },
   "browserslist": [
     ">0.2%",
@@ -104,7 +120,8 @@
       "web.jsx",
       "jsx",
       "node"
-    ]
+    ],
+    "setupTestFrameworkScriptFile": "<rootDir>/config/setup-tests.js"
   },
   "babel": {
     "presets": [

@@ -1,0 +1,20 @@
+[include]
+./src/components/*.js
+
+[ignore]
+.*/node_modules.*
+./src/components/**/*.styled.js
+./src/components/**/*.test.js
+
+[libs]
+flow-typed
+
+[options]
+module.name_mapper='^components' -> '<PROJECT_ROOT>/src/components'
+
+[version]
+>=0.82.0
+
+
+
+
