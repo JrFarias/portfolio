@@ -140,9 +140,6 @@ module.exports = {
       process.env.NODE_PATH.split(path.delimiter).filter(Boolean)
     ),
     extensions: ['.mjs', '.web.js', '.js', '.json', '.web.jsx', '.jsx'],
-    alias: {
-      'react-native': 'react-native-web',
-    },
     plugins: [
       PnpWebpackPlugin,
       new ModuleScopePlugin(paths.appSrc, [paths.appPackageJson]),
@@ -165,7 +162,7 @@ module.exports = {
             options: {
               formatter: require.resolve('react-dev-utils/eslintFormatter'),
               eslintPath: require.resolve('eslint'),
-              
+
             },
             loader: require.resolve('eslint-loader'),
           },
@@ -191,7 +188,7 @@ module.exports = {
               customize: require.resolve(
                 'babel-preset-react-app/webpack-overrides'
               ),
-              
+
               plugins: [
                 [
                   require.resolve('babel-plugin-named-asset-import'),

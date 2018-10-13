@@ -1,0 +1,6 @@
+**/*.test.js
+**/*.snap
+**/src/serviceWorker.js
+**/src/index.js
+**/config
+**/scripts
