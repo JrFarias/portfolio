@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App matches the snapshot 1`] = `
+<App>
+  <ThemeProvider
+    theme={
+      Object {
+        "outline": "none",
+        "typography": Object {
+          "baseFontSize": "16px",
+          "baseLineHeight": 1.45,
+          "blockMarginBottom": 1,
+          "bodyColor": "hsla(0,0%,0%,0.8)",
+          "bodyFontFamily": Array [
+            "Avenir Next",
+            "Helvetica Neue",
+            "sans-serif",
+          ],
+          "bodyWeight": "normal",
+          "boldWeight": "bold",
+          "googleFonts": Array [],
+          "headerColor": "inherit",
+          "headerFontFamily": Array [
+            "Avenir Next",
+            "Helvetica Neue",
+            "Segoe UI",
+            "Helvetica",
+            "Arial",
+            "sans-serif",
+          ],
+          "headerLineHeight": 1.1,
+          "headerWeight": "bold",
+          "includeNormalize": true,
+          "scaleRatio": 2,
+        },
+      }
+    }
+  >
+    <Template>
+      <styled.div>
+        <div
+          className="sc-gzVnrw hYrOZz"
+        >
+          <Header>
+            <HeaderStyled>
+              <header
+                className="sc-EHOje dfxGOg"
+              >
+                <Grid>
+                  <div
+                    className="sc-htpNat jPKUal"
+                  >
+                    <Row
+                      reverse={true}
+                    >
+                      <div
+                        className="sc-bxivhb fWjtRs"
+                      >
+                        <Col
+                          lg={4}
+                          md={6}
+                          sm={7}
+                          xs={8}
+                        >
+                          <div
+                            className="sc-ifAKCX gxsSOb"
+                          >
+                            <img
+                              alt="Junior Farias"
+                              src="https://avatars1.githubusercontent.com/u/15342475?s=460&v=4"
+                            />
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                    <Row
+                      reverse={true}
+                    >
+                      <div
+                        className="sc-bxivhb fWjtRs"
+                      >
+                        <Col
+                          lg={10}
+                          md={10}
+                          sm={12}
+                          xs={12}
+                        >
+                          <div
+                            className="sc-ifAKCX czexSH"
+                          >
+                            <h2>
+                              Hello, I am Junior Farias, Full stack developer
+                            </h2>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                    <Row
+                      reverse={true}
+                    >
+                      <div
+                        className="sc-bxivhb fWjtRs"
+                      >
+                        <Col
+                          lg={6}
+                          md={10}
+                          sm={12}
+                          xs={12}
+                        >
+                          <div
+                            className="sc-ifAKCX jtOomO"
+                          >
+                            <ListIcon>
+                              <ul
+                                className="sc-bZQynM cnOLjo"
+                              >
+                                <li
+                                  key="gitHub"
+                                >
+                                  <a
+                                    alt="gitHub"
+                                    href="https://goo.gl/3MiBCL"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                  >
+                                    <i
+                                      className="fab fa-github-square"
+                                    />
+                                  </a>
+                                </li>
+                                <li
+                                  key="Linkedin"
+                                >
+                                  <a
+                                    alt="Linkedin"
+                                    href="https://goo.gl/mi2f7h"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                  >
+                                    <i
+                                      className="fab fa-linkedin"
+                                    />
+                                  </a>
+                                </li>
+                                <li
+                                  key="Medium"
+                                >
+                                  <a
+                                    alt="Medium"
+                                    href="https://goo.gl/Wo6v5m"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                  >
+                                    <i
+                                      className="fab fa-medium"
+                                    />
+                                  </a>
+                                </li>
+                              </ul>
+                            </ListIcon>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                  </div>
+                </Grid>
+              </header>
+            </HeaderStyled>
+          </Header>
+          <Content>
+            <styled.article>
+              <article
+                className="sc-bdVaJa kdiHVB"
+              >
+                <BoxStyled>
+                  <section
+                    className="sc-bwzfXH fGJavj"
+                  >
+                    <h1>
+                      Hello Peoples
+                    </h1>
+                  </section>
+                </BoxStyled>
+              </article>
+            </styled.article>
+          </Content>
+        </div>
+      </styled.div>
+    </Template>
+  </ThemeProvider>
+</App>
+`;
