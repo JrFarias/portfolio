@@ -177,7 +177,7 @@ exports[`App matches the snapshot 1`] = `
                     className="sc-bwzfXH fGJavj"
                   >
                     <h1>
-                      Hello Peoples
+                      Hello People
                     </h1>
                   </section>
                 </BoxStyled>
