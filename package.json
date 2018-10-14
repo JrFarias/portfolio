@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "my portfolio with my jobs",
   "author": "Junior Farias <junioralberto19@gmail.com>",
   "main": "index.js",
